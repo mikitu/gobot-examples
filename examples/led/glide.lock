@@ -1,0 +1,18 @@
+hash: f93450555c89b2b8d0e3ba4b32658909ff1b330748be800a1df3cf38a1ce7441
+updated: 2016-12-31T16:49:39.580062059Z
+imports:
+- name: github.com/hashicorp/errwrap
+  version: 7554cd9344cec97297fa6649b055a8c98c2a1e55
+- name: github.com/hashicorp/go-multierror
+  version: d30f09973e19c1dfcd120b2d9c4f168e68d6b5d5
+- name: github.com/tarm/serial
+  version: 37be519d49878d0098e34fb614136b81e6c87861
+- name: gobot.io/x/gobot
+  version: 7a6e247bb8107eb5bbc4dba99bdef47eb102c0b9
+  subpackages:
+  - drivers/gpio
+  - platforms/firmata
+  - platforms/firmata/client
+  - platforms/raspi
+  - sysfs
+testImports: []

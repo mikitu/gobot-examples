@@ -1,0 +1,8 @@
+package: github.com/mikitu/gobot/examples/led
+import:
+- package: gobot.io/x/gobot
+  version: ^1.0.0
+  subpackages:
+  - drivers/gpio
+  - platforms/firmata
+  - platforms/raspi
